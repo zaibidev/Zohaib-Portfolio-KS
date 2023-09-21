@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #be3144;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 1;
+  z-index: 100;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 250;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.welcomescreen {
+  background-color: #303841;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcomescreen h3 {
+  color: #be3144;
+  font-style: italic;
+}
+
+.projects {
+  background-color: #45567d;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.projects h2 {
+  color: white;
+  font-size: 30px;
+  font-style: underline;
+}
+
+.projects button {
+  background-color: #303841;
+  padding: 9 px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+.contact-box {
+  background-color: #303841;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-box a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
