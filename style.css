@@ -58,23 +58,35 @@ nav a {
 
 .projects button {
   background-color: #303841;
+  color: white;
   padding: 9 px 18px;
   display: flex;
   justify-content: center;
+  align-content: center;
+  width: 150px;
+  height: 50px;
   align-items: center;
-  width: 80px;
 }
 .contact-box {
   background-color: #303841;
   color: white;
   height: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contact-box a {
   color: white;
   text-decoration: none;
-  justify-content: center;
+  display: flex;
   align-items: center;
+}
+
+.bye {
+  display: flex;
+  justify-content: center;
+  background-color: #303841;
+  border-top: 4px solid #be3144;
+  color: aqua;
 }
